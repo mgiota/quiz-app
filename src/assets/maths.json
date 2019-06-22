@@ -1,0 +1,107 @@
+[
+  {
+    "label": "What is what?",
+    "choices": [
+      {
+        "value": "5",
+        "correct": true
+      },
+      {
+        "value": "15",
+        "correct": false
+      },
+      {
+        "value": "3",
+        "correct": false
+      },
+      {
+        "value": "pi",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "Why where?",
+    "choices": [
+      {
+        "value": "5",
+        "correct": true
+      },
+      {
+        "value": "15",
+        "correct": false
+      },
+      {
+        "value": "3",
+        "correct": false
+      },
+      {
+        "value": "pi",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "Who and when?",
+    "choices": [
+      {
+        "value": "5",
+        "correct": true
+      },
+      {
+        "value": "15",
+        "correct": false
+      },
+      {
+        "value": "3",
+        "correct": false
+      },
+      {
+        "value": "pi",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "When ?",
+    "choices": [
+      {
+        "value": "5",
+        "correct": true
+      },
+      {
+        "value": "15",
+        "correct": false
+      },
+      {
+        "value": "3",
+        "correct": false
+      },
+      {
+        "value": "pi",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "When is 3 - 9?",
+    "choices": [
+      {
+        "value": "3",
+        "correct": false
+      },
+      {
+        "value": "-6",
+        "correct": true
+      },
+      {
+        "value": "Bonjour",
+        "correct": false
+      },
+      {
+        "value": "pi",
+        "correct": false
+      }
+    ]
+  }
+]
