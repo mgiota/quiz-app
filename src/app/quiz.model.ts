@@ -12,7 +12,7 @@ export class Question {
 
 // loads given data, a main class
 export class Quiz {
-  constructor(public label: string, public questions: Question[]) {}
+  constructor(public label: string, public name: string, public description: string, public fileName: string) {}
 }
 
 // represents collected data from user, a main class
