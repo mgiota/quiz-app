@@ -1,6 +1,15 @@
-<div class="quiz-list" *ngFor="quiz-list">
-  <h1>{{quiz-list.name}}</h1>
-  <p>quiz-list.label</p>
-  <p>quiz-list.description</p>
+<div class="welcome">
+  <h1>It's Quiz Time!</h1>
+  <p>Pick out of a selection of two:</p>
 
+  <table class="quizzes">
+    <tr class="quiz" *ngFor="let quiz of quiz">
+      <td>{{quiz.label}}</td>
+      <td>{{quiz.description}}</td>
+      <td>
+        <a routerLink="/quizId">start!</a>
+      </td>
+      <br>
+    </tr>
+  </table>
 </div>

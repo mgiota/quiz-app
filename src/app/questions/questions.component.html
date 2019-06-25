@@ -11,11 +11,8 @@
     <button
       class="btn btn-success"
       (click)="nextOrViewResults()"
-      [disabled]="!answes.values[currentQuestionIndex]"
+      [disabled]="!answers.values[currentQuestionIndex]"
       >{{currentQuestionIndex === questions.length - 1 ? 'View results' : 'Next'}}
     </button>
-  </div>
 
   <app-results *ngIf="showResults" [answers]="answers"></app-results>
-
-</div>
