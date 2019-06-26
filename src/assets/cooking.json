@@ -1,0 +1,44 @@
+[
+  {
+    "label": "What is poaching?",
+    "choices": [
+      {
+        "value": "Preparation of illegally hunted animals.",
+        "correct": false
+      },
+      {
+        "value": "Cooking in liquid at low temerature.",
+        "correct": true
+      },
+      {
+        "value": "The same as simmering.",
+        "correct": false
+      },
+      {
+        "value": "Slang for toasting.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "What is a characteristic ingredient of pesto?",
+    "choices": [
+      {
+        "value": "pine nut",
+        "correct": true
+      },
+      {
+        "value": "walnut",
+        "correct": false
+      },
+      {
+        "value": "almond",
+        "correct": false
+      },
+      {
+        "value": "pecan",
+        "correct": false
+      }
+    ]
+  }
+]

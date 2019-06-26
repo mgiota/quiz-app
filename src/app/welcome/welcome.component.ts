@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { MatCardModule } from '@angular/material/card';
 import { QuestionsService } from '../questions.service';
 import { Observable } from 'rxjs';
 import { Quiz } from '../quiz.model';
@@ -15,7 +16,6 @@ export class WelcomeComponent {
     this.questionsService.getQuizzes()
       .subscribe(quiz => {
         this.quiz = quiz;
-      });
+    });
   }
-
 }

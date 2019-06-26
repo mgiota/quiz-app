@@ -1,15 +1,15 @@
-<div class="welcome">
-  <h1>It's Quiz Time!</h1>
-  <p>Pick out of a selection of two:</p>
+<mat-card class="welcome-card">
+  <mat-card-header>
+    <div mat-card-avatar></div>
+    <mat-card-title>It's Quiz Time!</mat-card-title>
+    <mat-card-subtitle>This is your selection:</mat-card-subtitle>
+  </mat-card-header>
 
-  <table class="quizzes">
-    <tr class="quiz" *ngFor="let quiz of quiz">
-      <td>{{quiz.label}}</td>
-      <td>{{quiz.description}}</td>
-      <td>
-        <a routerLink="/quizId">start!</a>
-      </td>
+    <mat-card-content class="quiz" *ngFor="let quiz of quiz">
+      {{quiz.label}}<br>
+      {{quiz.description}}<br>
+      <a routerLink="/quizId">start!</a>
       <br>
-    </tr>
-  </table>
-</div>
+    </mat-card-content>
+
+</mat-card>

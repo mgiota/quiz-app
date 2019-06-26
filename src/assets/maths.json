@@ -1,105 +1,84 @@
 [
   {
-    "label": "What is what?",
+    "label": "If a hen and a half lay an egg and a half in a day and a half, how many eggs will half a dozen hens lay in half a dozen days?",
     "choices": [
       {
-        "value": "5",
+        "value": "24",
         "correct": true
       },
       {
-        "value": "15",
+        "value": "12",
         "correct": false
       },
       {
-        "value": "3",
+        "value": "25",
         "correct": false
       },
       {
-        "value": "pi",
+        "value": "none",
         "correct": false
       }
     ]
   },
   {
-    "label": "Why where?",
+    "label": "What is the smallest whole number that is equal to seven times the sum of its digits?",
     "choices": [
       {
-        "value": "5",
+        "value": "21",
         "correct": true
       },
       {
-        "value": "15",
+        "value": "20",
         "correct": false
       },
       {
-        "value": "3",
+        "value": "7",
         "correct": false
       },
       {
-        "value": "pi",
+        "value": "14",
         "correct": false
       }
     ]
   },
   {
-    "label": "Who and when?",
+    "label": "Old Granny Adams left half her money to her granddaughter and half that amount to her grandson. She left a sixth to her brother, and the remainder, $1,000, to the dogs’ home. How much did she leave altogether?",
     "choices": [
       {
-        "value": "5",
+        "value": "$12,000",
         "correct": true
       },
       {
-        "value": "15",
+        "value": "$120,000",
         "correct": false
       },
       {
-        "value": "3",
+        "value": "$1,200",
         "correct": false
       },
       {
-        "value": "pi",
+        "value": "$120",
         "correct": false
       }
     ]
   },
   {
-    "label": "When ?",
+    "label": "How much is !5",
     "choices": [
+      {
+        "value": "120",
+        "correct": true
+      },
+      {
+        "value": "-5",
+        "correct": false
+      },
       {
         "value": "5",
-        "correct": true
-      },
-      {
-        "value": "15",
         "correct": false
       },
       {
-        "value": "3",
-        "correct": false
-      },
-      {
-        "value": "pi",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "label": "When is 3 - 9?",
-    "choices": [
-      {
-        "value": "3",
-        "correct": false
-      },
-      {
-        "value": "-6",
-        "correct": true
-      },
-      {
-        "value": "Bonjour",
-        "correct": false
-      },
-      {
-        "value": "pi",
+        "value": "5+",
         "correct": false
       }
     ]
