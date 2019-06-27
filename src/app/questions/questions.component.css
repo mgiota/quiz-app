@@ -1,4 +1,7 @@
 .question {
-  width: 80%;
-  margin: 2em;
+  background-color: lavender;
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
