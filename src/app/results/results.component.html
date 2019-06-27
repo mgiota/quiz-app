@@ -1,7 +1,9 @@
 <mat-card class="results">
-  <div >
+  <div>
+    <mat-card-header>
     <mat-card-title>Results</mat-card-title>
     <mat-card-subtitle>green: correct / red: not so correct<br>Your answers:</mat-card-subtitle>
+    </mat-card-header>
     <div class="answers"
     *ngFor="let a of answers.values"
     [ngStyle]="{'color': a.correct ? 'green' : 'red'}"

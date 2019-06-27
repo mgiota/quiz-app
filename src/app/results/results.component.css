@@ -1,1 +1,4 @@
-
+.avatar {
+  background-image: url('../../assets/img/rect10.png');
+  background-size: cover;
+}
