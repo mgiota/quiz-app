@@ -3,20 +3,20 @@
     "label": "What is poaching?",
     "choices": [
       {
-        "value": "Preparation of illegally hunted animals.",
+        "value": "preparation of illegally hunted animals",
         "correct": false
       },
       {
-        "value": "Cooking in liquid at low temerature.",
+        "value": "colloquial term for toasting",
+        "correct": false
+      },
+      {
+        "value": "simmering",
+        "correct": false
+      },
+      {
+        "value": "cooking in liquid at low temerature",
         "correct": true
-      },
-      {
-        "value": "The same as simmering.",
-        "correct": false
-      },
-      {
-        "value": "Slang for toasting.",
-        "correct": false
       }
     ]
   },

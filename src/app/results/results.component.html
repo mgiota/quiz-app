@@ -1,8 +1,11 @@
 <mat-card class="results">
   <div >
     <mat-card-title>Results</mat-card-title>
-    <mat-card-subtitle>Your answers:</mat-card-subtitle>
-    <div class="answers" *ngFor="let a of answers.values" [ngClass]="{correct: a.correct}">
+    <mat-card-subtitle>green: correct / red: not so correct<br>Your answers:</mat-card-subtitle>
+    <div class="answers"
+    *ngFor="let a of answers.values"
+    [ngStyle]="{'color': a.correct ? 'green' : 'red'}"
+    [ngClass]="{correct: a.correct}">
       {{a.value}}
     </div>
     <mat-card-actions>
