@@ -15,11 +15,11 @@ import { Question, Quiz, Answers, Choice } from '../quiz.model';
 })
 
 export class QuestionsComponent implements OnInit {
-  private answers: Answers;
-  private quiz: Quiz;
-  private questions: Question [];
-  private currentQuestionIndex: number;
-  private showResults=false;
+   answers: Answers;
+   quiz: Quiz;
+   questions: Question [];
+   currentQuestionIndex: number;
+   showResults = false;
 
   // inject both the active route and the questions service
   constructor(private route: ActivatedRoute, private questionsService:QuestionsService) {}
@@ -30,7 +30,7 @@ export class QuestionsComponent implements OnInit {
     .subscribe(questions => {
       //initialize everyting
       this.questions = questions;
-      this.answers = this.answers;
+      this.answers = new Answers();
       this.currentQuestionIndex = 0;
     });
   }

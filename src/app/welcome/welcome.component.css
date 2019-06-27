@@ -1,4 +1,12 @@
 .welcome-card {
-background-color: lavender;
-width: 50%;
+  background-color: lavender;
+  width: 80%;
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.questions {
+  background-color: #f5f5fd;
 }
