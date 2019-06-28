@@ -1,0 +1,20 @@
+[
+  {
+    "label": "You like to solve problems?",
+    "name": "maths",
+    "description": "simple math text problems",
+    "fileName": "maths.json"
+  },
+  {
+    "label": "Parlez-vous francais?",
+    "name": "french",
+    "description": "Questions about french",
+    "fileName": "french.json"
+  },
+  {
+    "label": "Cooking",
+    "name": "cooking",
+    "description": "It's all about Food",
+    "fileName": "cooking.json"
+  }
+]

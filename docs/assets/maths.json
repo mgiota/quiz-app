@@ -1,0 +1,86 @@
+[
+  {
+    "label": "If a hen and a half lay an egg and a half in a day and a half, how many eggs will half a dozen hens lay in half a dozen days?",
+    "choices": [
+      {
+        "value": "none",
+        "correct": false
+      },
+      {
+        "value": "12",
+        "correct": false
+      },
+      {
+        "value": "25",
+        "correct": false
+      },
+      {
+        "value": "24",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "label": "What is the smallest whole number that is equal to seven times the sum of its digits?",
+    "choices": [
+      {
+        "value": "20",
+        "correct": false
+      },
+      {
+        "value": "21",
+        "correct": true
+      },
+      {
+        "value": "7",
+        "correct": false
+      },
+      {
+        "value": "14",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "Old Granny Adams left half her money to her granddaughter and half that amount to her grandson. She left a sixth to her brother, and the remainder, $1,000, to the dogs’ home. How much did she leave altogether?",
+    "choices": [
+      {
+        "value": "$120",
+        "correct": false
+      },
+      {
+        "value": "$120,000",
+        "correct": false
+      },
+      {
+        "value": "$1,200",
+        "correct": false
+      },
+      {
+        "value": "$12,000",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "label": "How much is !5",
+    "choices": [
+      {
+        "value": "120",
+        "correct": true
+      },
+      {
+        "value": "-5",
+        "correct": false
+      },
+      {
+        "value": "5",
+        "correct": false
+      },
+      {
+        "value": "5+",
+        "correct": false
+      }
+    ]
+  }
+]
