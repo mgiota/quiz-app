@@ -1,11 +1,20 @@
 .welcome-card {
   background-color: lavender;
   margin-top: 2em;
+  padding: 2em;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: center;
+  border-radius: 6px;
+  text-align: center;
 }
 
-.questions {
+.containers {
+text-align: center;
+}
+
+.quiz {
   background-color: #f5f5fd;
+  margin: 2em;
+
 }

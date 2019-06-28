@@ -1,17 +1,13 @@
-<mat-card class="welcome-card">
-  <mat-card-header>
-    <img mat-card-avatar class="avatar" src='assets/img/rect10.png'>
-    <mat-card-title>It's Quiz Time!</mat-card-title>
-    <mat-card-subtitle>This is your selection:</mat-card-subtitle>
-  </mat-card-header>
-
-<mat-card class="questions">
-    <mat-card-content class="quiz" *ngFor="let quiz of quiz">
-      {{quiz.label}}<br>
-      {{quiz.description}}<br>
+<div class="welcome-card">
+  <img mat-card-avatar class="avatar" src='assets/img/rect10.png'>
+  <p>It's Quiz Time!</p>
+  <p>This is your selection:</p>
+  <div class="containers">
+    <mat-card class="quiz" *ngFor="let quiz of quiz">
+      <mat-card-title>{{quiz.label}}  </mat-card-title>
+      <mat-card-content>{{quiz.description}}</mat-card-content>
       <button routerLink="/{{quiz.name}}">start</button>
-      <br>
-    </mat-card-content>
-    </mat-card>
 
-</mat-card>
+    </mat-card>
+  </div>
+</div>
